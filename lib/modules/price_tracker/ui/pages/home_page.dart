@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-// import '../../models/coin_model.dart';
 import 'package:tracker_test_package/tracker_test_package.dart';
+
+import '../widgets/coin_card_widget.dart';
 
 class HomePagePriceTracker extends StatefulWidget {
   const HomePagePriceTracker({Key? key}) : super(key: key);
