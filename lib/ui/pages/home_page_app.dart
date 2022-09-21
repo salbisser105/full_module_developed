@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/container.dart';
-import 'package:flutter/src/widgets/framework.dart';
 import 'package:full_module/modules/price_tracker/ui/pages/home_page.dart';
 import 'package:full_module/modules/search_module/ui/pages/home_page.dart';
 
@@ -30,9 +28,9 @@ class _HomePageState extends State<HomePage> {
           items: const [
             BottomNavigationBarItem(label: 'Home', icon: Icon(Icons.home)),
             BottomNavigationBarItem(
-                label: 'Search', icon: Icon(Icons.find_in_page)),
+                label: 'Tracker', icon: Icon(Icons.find_in_page)),
             BottomNavigationBarItem(
-                label: 'Tracker', icon: Icon(Icons.track_changes))
+                label: 'Search', icon: Icon(Icons.track_changes))
           ]),
     );
   }

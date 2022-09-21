@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-import '../../helpers/helpers.dart';
-import '../../models/coin_model.dart';
-import '../widgets/coin_card_widget.dart';
+// import '../../models/coin_model.dart';
+import 'package:tracker_test_package/tracker_test_package.dart';
 
 class HomePagePriceTracker extends StatefulWidget {
   const HomePagePriceTracker({Key? key}) : super(key: key);
@@ -13,7 +12,7 @@ class HomePagePriceTracker extends StatefulWidget {
 }
 
 class _HomePagePriceTrackerState extends State<HomePagePriceTracker> {
-  Helpers helpers = Helpers();
+  TrackerTestPackage helpers = TrackerTestPackage();
 
   @override
   Widget build(BuildContext context) {

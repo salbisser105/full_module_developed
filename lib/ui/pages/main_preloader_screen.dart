@@ -1,6 +1,8 @@
 import 'dart:async';
 
+import 'package:custom_route_transition_sa/custom_route_transition_sa.dart';
 import 'package:flutter/material.dart';
+import 'package:full_module/ui/pages/home_page_app.dart';
 
 class MainPreLoaderPage extends StatefulWidget {
   const MainPreLoaderPage({Key? key}) : super(key: key);
@@ -23,7 +25,12 @@ class _MainPreLoaderPageState extends State<MainPreLoaderPage> {
   }
 
   route() {
-    Navigator.pushNamed(context, '/home');
+    // Navigator.pushNamed(context, '/home');
+    CustomRouteTransitionSa(
+        context: context,
+        child: HomePage(),
+        animation: AnimationType.fadeIn,
+        duration: Duration(seconds: 5));
   }
 
   @override

@@ -28,6 +28,9 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   http: ^0.13.5
+  custom_route_transition_sa: ^0.0.1
+  tracker_test_package: ^0.0.2
+
 
 
 dev_dependencies:
